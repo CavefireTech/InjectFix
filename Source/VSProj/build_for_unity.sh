@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-UNITY_HOME="/Applications/Unity/2019.4.21f1c1/Unity.app"
+UNITY_HOME="/Applications/Unity/2019.4.34f1/Unity.app"
 GMCS="$UNITY_HOME/Contents/Mono/bin/gmcs"
 if [ ! -d $GMCS ]; then
     GMCS="$UNITY_HOME/Contents/MonoBleedingEdge/bin/mcs"
